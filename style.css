@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
+.cont{
+    background-color:hsl(217, 54%, 11%);
+}
+
+.card {
+    width: 290px;
+  height: 480px;
+  background-color:hsl(216, 50%, 16%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 1px 1px 30px hsl(213, 53%, 7%);
+  border: 1px solid hsl(216, 50%, 16%);
+  border-radius: 14px;
+  
+  
+}
+.photo{
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+    border-radius: 5%;
+    margin-bottom: 18px;
+    cursor: pointer;
+    transition: transform .2s;
+    
+}
+.photo:hover {
+  transform: scale(1.5); 
+  transform: scale(1.5); 
+  transform: scale(1.167);
+}
+.a{
+    font-size: 19px;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    font-weight: 600;
+    
+    
+}
+.b{
+    font-size: 14px;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(212, 22%, 63%);
+    margin-bottom: 6px;
+    font-weight: 400;
+
+}
+.equil{
+    margin: -4px;
+    padding-left: 20px;
+    flex-direction: column;
+    
+    
+}
+.c{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    width: 150px;
+    
+    
+}
+.d{
+    width: 10px;
+    height: 16px;
+    padding-left: 2px;
+    
+    
+
+}
+.e{
+    font-family: 'Outfit', sans-serif;
+    color: rgb(31, 203, 209);
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+.clock{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    width: 150px;
+
+}
+.f{
+    width: 16px;
+    height: 16px;
+    padding-left: 15px;
+}
+    
+.g{
+    font-size: 14px;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(212, 22%, 63%);
+    font-weight: 500;
+
+}
+.i{
+    display:flex;
+    justify-content: space-between;
+    width: 240px;
+    gap: 35px;
+    margin-left: 14px;
+    border-bottom: 1px solid hsl(213, 18%, 48% , 0.6);
+    
+}
+.br{
+    padding-left: 8px;
+    border: 1px ;
+}
+.avtr{
+    width: 27px;
+    height: 27px;
+    border: 1.5px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+
+    
+}
+
+.pro{
+    display: flex;
+    width: 240px;
+    margin-left: 15px;
+    margin-top: 10px;
+    
+
+}
+.x{
+    font-size: 13px;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(212, 22%, 63%);
+    font-weight: 400;
+    margin-left: 10px;
+}
+.y{
+    font-size: 13px;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(210, 30%, 96%);
+    font-weight: 400;
+    margin-left: 4px;
+}
+
+
+
